@@ -13,9 +13,12 @@ var Validation = function () {
     return true;
   };
 
-  this.kiemTraQRCode = function(){
-    console.log('check QR code');
-  }
+  this.kiemTraQRCode = function () {
+    console.log("check QR code");
+  };
+  this.userB = function () {
+    console.log("userB");
+  };
   this.kiemTraEmail = function (selector, name, error_selector) {
     var regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
