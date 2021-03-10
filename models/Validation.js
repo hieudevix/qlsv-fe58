@@ -13,22 +13,19 @@ var Validation = function () {
     return true;
   };
 
-<<<<<<< HEAD
   this.kiemTraQRCode = function () {
     console.log("check QR code");
   };
   this.userB = function () {
     console.log("userB");
   };
-=======
-  this.kiemTraQRCode = function(){
-    console.log('check QR code');
-  }
+  this.kiemTraQRCode = function () {
+    console.log("check QR code");
+  };
 
-  this.chucNangUserA = function(){
-    console.log('userA');
-  }
->>>>>>> e60ecdfacfd361f7d54888c917cd7e46dca16664
+  this.chucNangUserA = function () {
+    console.log("userA");
+  };
   this.kiemTraEmail = function (selector, name, error_selector) {
     var regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
